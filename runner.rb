@@ -5,6 +5,7 @@ require_relative 'furniture_loader'
 
 
 shmikea = Shmikea.new('shmikea.csv')
-shmikea.furniture.each do |f|
-  p f
+puts "Here's the catalogue!"
+shmikea.furniture.each do |furniture|
+  puts furniture
 end
